@@ -28,4 +28,6 @@ HOST_CONFIGURE_ARGS += \
 	--disable-acl \
 	--disable-nls
 
+export FORCE_UNSAFE_CONFIGURE=1
+
 $(eval $(call HostBuild))
